@@ -8,6 +8,7 @@ import { AbmAlumnosComponent } from './abm-alumnos/abm-alumnos.component';
 import { ListAlumnosComponent } from './list-alumnos/list-alumnos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialAngularModule } from './modulos/material-angular.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MaterialAngularModule } from './modulos/material-angular.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialAngularModule
+    MaterialAngularModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
